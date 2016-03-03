@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4FE8D321C8141C400C7DC75"
-               BuildableName = "Tow Choice - Provider.app"
-               BlueprintName = "Tow Choice - Provider"
-               ReferencedContainer = "container:Tow Choice - Provider.xcodeproj">
+               BuildableName = "Tow Choice.app"
+               BlueprintName = "Tow Choice"
+               ReferencedContainer = "container:Tow Choice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4FE8D321C8141C400C7DC75"
-            BuildableName = "Tow Choice - Provider.app"
-            BlueprintName = "Tow Choice - Provider"
-            ReferencedContainer = "container:Tow Choice - Provider.xcodeproj">
+            BuildableName = "Tow Choice.app"
+            BlueprintName = "Tow Choice"
+            ReferencedContainer = "container:Tow Choice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4FE8D321C8141C400C7DC75"
-            BuildableName = "Tow Choice - Provider.app"
-            BlueprintName = "Tow Choice - Provider"
-            ReferencedContainer = "container:Tow Choice - Provider.xcodeproj">
+            BuildableName = "Tow Choice.app"
+            BlueprintName = "Tow Choice"
+            ReferencedContainer = "container:Tow Choice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4FE8D321C8141C400C7DC75"
-            BuildableName = "Tow Choice - Provider.app"
-            BlueprintName = "Tow Choice - Provider"
-            ReferencedContainer = "container:Tow Choice - Provider.xcodeproj">
+            BuildableName = "Tow Choice.app"
+            BlueprintName = "Tow Choice"
+            ReferencedContainer = "container:Tow Choice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

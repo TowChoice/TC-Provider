@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4FE8D331C8141C400C7DC75 /* Tow Choice - Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tow Choice - Provider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FE8D331C8141C400C7DC75 /* Tow Choice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tow Choice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FE8D361C8141C400C7DC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4FE8D381C8141C400C7DC75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4FE8D3B1C8141C400C7DC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		E4FE8D2A1C8141C400C7DC75 = {
 			isa = PBXGroup;
 			children = (
-				E4FE8D351C8141C400C7DC75 /* Tow Choice - Provider */,
+				E4FE8D351C8141C400C7DC75 /* Tow Choice */,
 				E4FE8D341C8141C400C7DC75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		E4FE8D341C8141C400C7DC75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4FE8D331C8141C400C7DC75 /* Tow Choice - Provider.app */,
+				E4FE8D331C8141C400C7DC75 /* Tow Choice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4FE8D351C8141C400C7DC75 /* Tow Choice - Provider */ = {
+		E4FE8D351C8141C400C7DC75 /* Tow Choice */ = {
 			isa = PBXGroup;
 			children = (
 				E4FE8D481C81440300C7DC75 /* img */,
@@ -65,6 +65,7 @@
 				E4FE8D3D1C8141C400C7DC75 /* Assets.xcassets */,
 				E4FE8D421C8141C400C7DC75 /* Info.plist */,
 			);
+			name = "Tow Choice";
 			path = "Tow Choice - Provider";
 			sourceTree = "<group>";
 		};
@@ -81,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4FE8D321C8141C400C7DC75 /* Tow Choice - Provider */ = {
+		E4FE8D321C8141C400C7DC75 /* Tow Choice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4FE8D451C8141C400C7DC75 /* Build configuration list for PBXNativeTarget "Tow Choice - Provider" */;
+			buildConfigurationList = E4FE8D451C8141C400C7DC75 /* Build configuration list for PBXNativeTarget "Tow Choice" */;
 			buildPhases = (
 				E4FE8D2F1C8141C400C7DC75 /* Sources */,
 				E4FE8D301C8141C400C7DC75 /* Frameworks */,
@@ -93,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Tow Choice - Provider";
+			name = "Tow Choice";
 			productName = "Tow Choice - Provider";
-			productReference = E4FE8D331C8141C400C7DC75 /* Tow Choice - Provider.app */;
+			productReference = E4FE8D331C8141C400C7DC75 /* Tow Choice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4FE8D2E1C8141C400C7DC75 /* Build configuration list for PBXProject "Tow Choice - Provider" */;
+			buildConfigurationList = E4FE8D2E1C8141C400C7DC75 /* Build configuration list for PBXProject "Tow Choice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4FE8D321C8141C400C7DC75 /* Tow Choice - Provider */,
+				E4FE8D321C8141C400C7DC75 /* Tow Choice */,
 			);
 		};
 /* End PBXProject section */
@@ -261,9 +262,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tow Choice - Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tow-Choice-Provider";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.towchoice.live;
+				PRODUCT_NAME = "Tow Choice";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -275,9 +277,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tow Choice - Provider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tow-Choice-Provider";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.towchoice.live;
+				PRODUCT_NAME = "Tow Choice";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -285,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4FE8D2E1C8141C400C7DC75 /* Build configuration list for PBXProject "Tow Choice - Provider" */ = {
+		E4FE8D2E1C8141C400C7DC75 /* Build configuration list for PBXProject "Tow Choice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4FE8D431C8141C400C7DC75 /* Debug */,
@@ -294,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4FE8D451C8141C400C7DC75 /* Build configuration list for PBXNativeTarget "Tow Choice - Provider" */ = {
+		E4FE8D451C8141C400C7DC75 /* Build configuration list for PBXNativeTarget "Tow Choice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4FE8D461C8141C400C7DC75 /* Debug */,
