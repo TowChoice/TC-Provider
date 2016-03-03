@@ -14,9 +14,6 @@
 		E4FE8D4F1C81441800C7DC75 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D491C81441800C7DC75 /* Default-568h@2x~iphone.png */; };
 		E4FE8D501C81441800C7DC75 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D4A1C81441800C7DC75 /* Default@2x~iphone.png */; };
 		E4FE8D511C81441800C7DC75 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D4B1C81441800C7DC75 /* Default~iphone.png */; };
-		E4FE8D521C81441800C7DC75 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D4C1C81441800C7DC75 /* icon-120.png */; };
-		E4FE8D531C81441800C7DC75 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D4D1C81441800C7DC75 /* icon.png */; };
-		E4FE8D541C81441800C7DC75 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FE8D4E1C81441800C7DC75 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +26,6 @@
 		E4FE8D491C81441800C7DC75 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x~iphone.png"; path = "image/Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		E4FE8D4A1C81441800C7DC75 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "image/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		E4FE8D4B1C81441800C7DC75 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "image/Default~iphone.png"; sourceTree = "<group>"; };
-		E4FE8D4C1C81441800C7DC75 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-120.png"; path = "image/icon-120.png"; sourceTree = "<group>"; };
-		E4FE8D4D1C81441800C7DC75 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = image/icon.png; sourceTree = "<group>"; };
-		E4FE8D4E1C81441800C7DC75 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "image/icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +74,6 @@
 				E4FE8D491C81441800C7DC75 /* Default-568h@2x~iphone.png */,
 				E4FE8D4A1C81441800C7DC75 /* Default@2x~iphone.png */,
 				E4FE8D4B1C81441800C7DC75 /* Default~iphone.png */,
-				E4FE8D4C1C81441800C7DC75 /* icon-120.png */,
-				E4FE8D4D1C81441800C7DC75 /* icon.png */,
-				E4FE8D4E1C81441800C7DC75 /* icon@2x.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -147,10 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FE8D501C81441800C7DC75 /* Default@2x~iphone.png in Resources */,
-				E4FE8D541C81441800C7DC75 /* icon@2x.png in Resources */,
-				E4FE8D531C81441800C7DC75 /* icon.png in Resources */,
 				E4FE8D3E1C8141C400C7DC75 /* Assets.xcassets in Resources */,
-				E4FE8D521C81441800C7DC75 /* icon-120.png in Resources */,
 				E4FE8D4F1C81441800C7DC75 /* Default-568h@2x~iphone.png in Resources */,
 				E4FE8D511C81441800C7DC75 /* Default~iphone.png in Resources */,
 				E4FE8D3C1C8141C400C7DC75 /* Main.storyboard in Resources */,
@@ -313,6 +301,7 @@
 				E4FE8D471C8141C400C7DC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

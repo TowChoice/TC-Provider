@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,36 +19,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="XnY-4S-sWF">
-                                <rect key="frame" x="290" y="290" width="20" height="20"/>
-                                <color key="color" red="0.75294117650000003" green="0.2156862745" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </activityIndicatorView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-120.png" translatesAutoresizingMaskIntoConstraints="NO" id="ONd-X7-R6f">
-                                <rect key="frame" x="240" y="162" width="120" height="120"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="ONd-X7-R6f">
+                                <rect key="frame" x="100" y="0.0" width="400" height="600"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="ieQ-XC-0Ol"/>
-                                    <constraint firstAttribute="height" constant="120" id="nOx-fx-0Tf"/>
+                                    <constraint firstAttribute="width" secondItem="ONd-X7-R6f" secondAttribute="height" multiplier="2:3" id="gcU-gC-bqZ"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="WY5-fs-wH4">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="XnY-4S-sWF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2nB-DJ-b6m"/>
-                            <constraint firstItem="XnY-4S-sWF" firstAttribute="top" secondItem="ONd-X7-R6f" secondAttribute="bottom" constant="8" id="V7Z-Tk-CXO"/>
-                            <constraint firstItem="ONd-X7-R6f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iLg-zA-goc"/>
-                            <constraint firstItem="XnY-4S-sWF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uG2-op-Ogk"/>
+                            <constraint firstItem="WY5-fs-wH4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2tU-7Q-RXb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ONd-X7-R6f" secondAttribute="bottom" id="MHj-TK-6SD"/>
+                            <constraint firstItem="ONd-X7-R6f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="kyg-Cn-36r"/>
+                            <constraint firstItem="ONd-X7-R6f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pHH-he-cJy"/>
+                            <constraint firstItem="WY5-fs-wH4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="w1B-e0-9FC"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="loadingImage" destination="ONd-X7-R6f" id="8PT-6K-PB4"/>
-                        <outlet property="loadingView" destination="XnY-4S-sWF" id="azK-Fz-JmI"/>
+                        <outlet property="loadingView" destination="WY5-fs-wH4" id="uCD-XR-Xyn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="430" y="300"/>
         </scene>
     </scenes>
     <resources>
-        <image name="icon-120.png" width="120" height="120"/>
+        <image name="Default.png" width="320" height="480"/>
     </resources>
 </document>

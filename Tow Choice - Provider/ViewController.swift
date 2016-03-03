@@ -15,6 +15,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     lazy var webView = UIWebView()
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadingView.transform = CGAffineTransformMakeScale(2.0, 2.0)
         webView.frame = CGRectMake(0, 0, view.bounds.width, view.bounds.height)
         webView.delegate = self
         view.addSubview(webView)
@@ -48,6 +49,8 @@ class ViewController: UIViewController, UIWebViewDelegate {
         loadingImage.hidden = true
         webView.hidden = false
     }
-
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
+    }
 }
 
